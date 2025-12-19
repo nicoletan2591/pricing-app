@@ -8,7 +8,7 @@ import logging
 logging.getLogger("pdfminer").setLevel(logging.ERROR)
 
 st.set_page_config(page_title="PI Database Targeting", layout="wide")
-st.title("🔬 PI Database Targeting & Search")
+st.title("🔬 Database Targeting & Search")
 
 if 'basket' not in st.session_state:
     st.session_state.basket = pd.DataFrame()
@@ -133,3 +133,4 @@ if uploaded_file:
 
     except Exception as e:
         st.error(f"Error: {e}")
+
