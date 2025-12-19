@@ -29,4 +29,3 @@ to create app to search database item
 #5. The "Curation & Export" Workflow
 #The Basket: When you find a group of researchers you like, you click "Add to Export List." This appends them to your collection while automatically removing duplicates.
 
-#The Cleaner: You can view your final selection at the bottom, clear it if you made a mistake, or download the whole "basket" as a professional Excel file.
